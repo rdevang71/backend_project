@@ -6,7 +6,7 @@ app.get('/',(req,res)=>{
     res.send('Hello this is home page')
 })
 
-app.get('/jokes',(req,res)=>{
+app.get('/api/jokes',(req,res)=>{
     const Jokes = [
   { id: 1, title: "Name Game", content: "Why did the name refuse to change? Because it didn’t want to lose its identity!" },
   { id: 2, title: "Alias Issues", content: "Why don’t secret agents use their real names? Because they don’t want to get tagged in embarrassing childhood photos!" },
